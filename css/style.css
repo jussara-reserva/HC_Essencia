@@ -54,7 +54,7 @@ body {
   font-family: var(--title-font);
   display: flex;
   width: 100%;
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -88,7 +88,7 @@ nav {
 /*==== HOME ============================ */
 #home {
   background-color: rgba(0, 0, 0, 1);
-  /* margin-top: 80px; */
+  margin-top: 80px;
   width: 100%;
   overflow: hidden;
 }
