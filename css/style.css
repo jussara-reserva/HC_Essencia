@@ -87,7 +87,7 @@ nav {
 
 /*==== HOME ============================ */
 #home {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(14, 14, 14, 1);
   margin-top: 80px;
   width: 100%;
   overflow: hidden;
@@ -202,7 +202,8 @@ nav {
   font: 500 120% var(--title-font);
 }
 #home .subscribe button:hover {
-  background-color: rgba(38, 38, 38, 1);
+  background-color: rgba(210, 127, 127, 1);
+  color: rgba(38, 38, 38, 1);
   cursor: pointer;
   transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;

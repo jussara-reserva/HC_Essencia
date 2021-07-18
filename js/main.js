@@ -38,3 +38,22 @@ let x = setInterval(function () {
     discountText.style.display = 'none'
   }
 }, 1000)
+
+// Local Storage
+const form = document.getElementById('subscribe-form')
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+
+  let name = document.getElementById('input-name').value
+  let email = document.getElementById('input-email').value
+
+  let subscribeDiv = document.getElementById('subscribe')
+
+  let jsonData = JSON.stringify({ name, email })
+  localStorage.setItem('lead', jsonData)
+
+  subscribeDiv.innerHTML =
+    '<p>Parabéns, você está inscrito e agora receberá em primeira mão todas as nossas promoções!</p>'
+  subscribeDiv.style.paddingTop = '30px'
+})
