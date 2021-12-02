@@ -1,5 +1,5 @@
 // Contagem regressiva - Retirado do w3schools e adaptado (https://www.w3schools.com/howto/howto_js_countdown.asp)
-let dateEvent = new Date('Nov 11, 2021 00:00:00').getTime()
+let dateEvent = new Date('Dec 31, 2021 00:00:00').getTime()
 
 // Atualiza a contagem a cada 1 segundo
 let x = setInterval(function () {
